@@ -9,9 +9,288 @@
         h1, h2 { color: #333; }
         article { margin-bottom: 40px; }
         footer { margin-top: 20px; color: #666; font-size: 0.9em; }
+        @keyframes animate {
+    0%{
+        transform: translateY(0) rotate(0deg);
+        opacity: 1;
+        border-radius: 0;
+    }
+    100%{
+        transform: translateY(-1000px) rotate(720deg);
+        opacity: 0;
+        border-radius: 50%;
+    }
+}
+
+.background {
+    position: fixed;
+    width: 100vw;
+    height: 100vh;
+    top: 0;
+    left: 0;
+    margin: 0;
+    padding: 0;
+    background: #4e54c8;
+    overflow: hidden;
+}
+.background li {
+    position: absolute;
+    display: block;
+    list-style: none;
+    width: 20px;
+    height: 20px;
+    background: rgba(255, 255, 255, 0.2);
+    animation: animate 19s linear infinite;
+}
+
+
+
+
+.background li:nth-child(0) {
+    left: 50%;
+    width: 152px;
+    height: 152px;
+    bottom: -152px;
+    animation-delay: 1s;
+}
+.background li:nth-child(1) {
+    left: 30%;
+    width: 104px;
+    height: 104px;
+    bottom: -104px;
+    animation-delay: 4s;
+}
+.background li:nth-child(2) {
+    left: 82%;
+    width: 158px;
+    height: 158px;
+    bottom: -158px;
+    animation-delay: 8s;
+}
+.background li:nth-child(3) {
+    left: 31%;
+    width: 168px;
+    height: 168px;
+    bottom: -168px;
+    animation-delay: 2s;
+}
+.background li:nth-child(4) {
+    left: 0%;
+    width: 102px;
+    height: 102px;
+    bottom: -102px;
+    animation-delay: 14s;
+}
+.background li:nth-child(5) {
+    left: 9%;
+    width: 183px;
+    height: 183px;
+    bottom: -183px;
+    animation-delay: 19s;
+}
+.background li:nth-child(6) {
+    left: 9%;
+    width: 161px;
+    height: 161px;
+    bottom: -161px;
+    animation-delay: 28s;
+}
+.background li:nth-child(7) {
+    left: 46%;
+    width: 115px;
+    height: 115px;
+    bottom: -115px;
+    animation-delay: 35s;
+}
+.background li:nth-child(8) {
+    left: 56%;
+    width: 127px;
+    height: 127px;
+    bottom: -127px;
+    animation-delay: 39s;
+}
+.background li:nth-child(9) {
+    left: 2%;
+    width: 123px;
+    height: 123px;
+    bottom: -123px;
+    animation-delay: 42s;
+}
+.background li:nth-child(10) {
+    left: 50%;
+    width: 111px;
+    height: 111px;
+    bottom: -111px;
+    animation-delay: 46s;
+}
+.background li:nth-child(11) {
+    left: 6%;
+    width: 199px;
+    height: 199px;
+    bottom: -199px;
+    animation-delay: 53s;
+}
+.background li:nth-child(12) {
+    left: 34%;
+    width: 112px;
+    height: 112px;
+    bottom: -112px;
+    animation-delay: 16s;
+}
+.background li:nth-child(13) {
+    left: 40%;
+    width: 146px;
+    height: 146px;
+    bottom: -146px;
+    animation-delay: 12s;
+}
+.background li:nth-child(14) {
+    left: 69%;
+    width: 124px;
+    height: 124px;
+    bottom: -124px;
+    animation-delay: 57s;
+}
+.background li:nth-child(15) {
+    left: 74%;
+    width: 156px;
+    height: 156px;
+    bottom: -156px;
+    animation-delay: 9s;
+}
+.background li:nth-child(16) {
+    left: 14%;
+    width: 104px;
+    height: 104px;
+    bottom: -104px;
+    animation-delay: 80s;
+}
+.background li:nth-child(17) {
+    left: 70%;
+    width: 191px;
+    height: 191px;
+    bottom: -191px;
+    animation-delay: 55s;
+}
+.background li:nth-child(18) {
+    left: 9%;
+    width: 126px;
+    height: 126px;
+    bottom: -126px;
+    animation-delay: 47s;
+}
+.background li:nth-child(19) {
+    left: 45%;
+    width: 182px;
+    height: 182px;
+    bottom: -182px;
+    animation-delay: 38s;
+}
+.background li:nth-child(20) {
+    left: 74%;
+    width: 130px;
+    height: 130px;
+    bottom: -130px;
+    animation-delay: 19s;
+}
+.background li:nth-child(21) {
+    left: 25%;
+    width: 104px;
+    height: 104px;
+    bottom: -104px;
+    animation-delay: 14s;
+}
+.background li:nth-child(22) {
+    left: 71%;
+    width: 158px;
+    height: 158px;
+    bottom: -158px;
+    animation-delay: 78s;
+}
+.background li:nth-child(23) {
+    left: 42%;
+    width: 122px;
+    height: 122px;
+    bottom: -122px;
+    animation-delay: 110s;
+}
+.background li:nth-child(24) {
+    left: 73%;
+    width: 174px;
+    height: 174px;
+    bottom: -174px;
+    animation-delay: 85s;
+}
+.background li:nth-child(25) {
+    left: 37%;
+    width: 188px;
+    height: 188px;
+    bottom: -188px;
+    animation-delay: 120s;
+}
+.background li:nth-child(26) {
+    left: 70%;
+    width: 110px;
+    height: 110px;
+    bottom: -110px;
+    animation-delay: 90s;
+}
+.background li:nth-child(27) {
+    left: 8%;
+    width: 157px;
+    height: 157px;
+    bottom: -157px;
+    animation-delay: 126s;
+}
+.background li:nth-child(28) {
+    left: 40%;
+    width: 149px;
+    height: 149px;
+    bottom: -149px;
+    animation-delay: 76s;
+}
+.background li:nth-child(29) {
+    left: 50%;
+    width: 113px;
+    height: 113px;
+    bottom: -113px;
+    animation-delay: 41s;
+}
     </style>
 </head>
 <body>
+    <ul class="background">
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+    </ul>
     <header>
         <h1>My 2D Platformer Development Journey on Godot</h1>
     </header>
